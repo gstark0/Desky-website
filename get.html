@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Desky - Get now!</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="get.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id="pay">
+		<img src="./img/logo.svg" id="logo">
+
+		<div id="billing-info-label">Billing information</div>
+
+		<form action="/charge" method="post" id="payment-form">
+			<div id="form-inputs">
+				<div class="input">
+					<label for="name">NAME</label>
+					<input type="text" name="name" id="name" placeholder="John Doe">
+				</div>
+
+				<div class="input">
+					<label for="email">E-MAIL</label>
+					<input type="text" name="email" id="email" placeholder="john@example.com">
+				</div>
+
+				<div class="input">
+					<label for="card">CARD</label>
+					<input type="text" name="card" id="card" placeholder="4111111111111111">
+				</div>
+
+				<div class="input">
+					<div class="input" style="float: left; width: 145px; margin-right: 10px;">
+						<label for="Code">CVC/CVV</label>
+						<input type="text" name="code" id="code" placeholder="111">
+					</div>
+
+					<div class="input" style="float: left; width: 145px;">
+						<label for="expire">EXPIRE</label>
+						<input type="text" name="expire" id="expire" placeholder="MM/YY">
+					</div>
+				</div>
+
+				<div class="input" style="margin-bottom: 30px;">
+					<label for="promotion-code">PROMOTION CODE (OPTIONAL)</label>
+					<input type="text" name="promotion-code" id="promotion-code" placeholder="XXXXX">
+				</div>
+			</div>
+
+			<input type="submit" name="submit-btn" value="Pay $2.99">
+		</form>
+	</div>
+</body>
+</html>
