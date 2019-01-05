@@ -26,6 +26,11 @@ html, body {
 	bottom: 55px;
 }
 
+a {
+	color: #57D99B;
+	text-decoration: none;
+}
+
 /* ---------- MAIN ---------- */
 #main {
 	width: 100%;
@@ -218,6 +223,8 @@ html, body {
 	width: 100%;
 	height: 40px;
 	background-color: #F5F3F4;
+	text-align: center;
+	line-height: 40px;
 }
 
 
