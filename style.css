@@ -9,6 +9,23 @@ html, body {
 	padding: 0;
 }
 
+#donate-window {
+	position: fixed;
+	bottom: 50px;
+	box-shadow: 5px 5px 10px 0px #727272;
+	z-index: 2;
+	right: 50px;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	transition: .2s;
+}
+
+#donate-window:hover {
+	cursor: pointer;
+	bottom: 55px;
+}
+
 /* ---------- MAIN ---------- */
 #main {
 	width: 100%;

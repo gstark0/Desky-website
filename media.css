@@ -98,6 +98,10 @@
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
+	#donate-window {
+		display: none;
+	}
+
 	#main-background {
 		display: none;
 	}
