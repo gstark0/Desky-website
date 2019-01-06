@@ -85,6 +85,10 @@ a {
 	outline: none;
 }
 
+#clean-text {
+	color: #57D99B;
+}
+
 #main-text-platforms {
 	margin-top: 2px;
 	text-align: center;
@@ -196,13 +200,12 @@ a {
 
 /* ---------- PLATFORMS ---------- */
 #platforms {
-	width: 100%;
+	width: 70%;
 	height: 100%;
+	margin: 0 auto;
 }
 
 #platforms-title {
-	width: 80%;
-	margin: 0 auto;
 	font-weight: 700;
 	padding-top: 80px;
 	padding-bottom: 40px;
