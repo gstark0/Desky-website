@@ -23,7 +23,7 @@
 	}
 
 	#platforms {
-		width: 70%;
+		
 	}
 }
 
@@ -180,5 +180,39 @@
 	.feature {
 		float: none;
 		margin-bottom: 20px;
+	}
+
+	#platforms {
+		width: 90%;
+		margin: auto;
+	}
+
+	#platforms-left {
+		width: 100%;
+	}
+
+	#platforms-title {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#platforms-content {
+		margin-top: 0;
+	}
+
+	#platforms-right {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	#platforms-right img {
+		width: 100%;
+		margin: 0;
+	}
+
+	#footer {
+		font-size: 12px;
 	}
 }
